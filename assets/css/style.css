@@ -1,3 +1,9 @@
+/*
+=============== 
+Variables
+===============
+*/
+
 :root{
     --clr-dark:#0F0E17;
     --clr-title:#E53170;
@@ -6,6 +12,11 @@
 
 }
 
+/*
+=============== 
+Global Styles
+===============
+*/
 
 *{
     margin: 0;
@@ -22,19 +33,17 @@ html{
     display: table;
     clear: both;
 }
-img{
-    width: 6.25rem;
-    max-width: 100%;
-    float: left;
-}
-
-
 .container{
     width: 70%;
     margin: auto;
     font-family: 'Poppins', sans-serif;
     
 }
+/*
+=============== 
+Header
+===============
+*/
 
 h1{
     padding: 2.5rem  0;
@@ -48,21 +57,40 @@ header{
     text-align: center;
 }
 
+/*
+=============== 
+Main
+===============
+*/
+
+.col-4{
+
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    width: calc(100% / 3 - 2rem);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    float: left;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+img{
+    width: 6.25rem;
+    max-width: 100%;
+    float: left;
+}
+.info{
+    height: 6.25rem;
+
+}
+
 span{
     display: block;
 }
 
 
-.col-4{
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
-    width: calc(100% / 3);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
 .e_mail{
     color: var(--clr-email);
 }
-.info{
-    height: 6.25rem;
-}
+
 
