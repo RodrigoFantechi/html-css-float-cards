@@ -64,7 +64,6 @@ Main
 */
 
 .col-4{
-
     background-color: var(--clr-dark);
     color: var(--clr-light);
     width: calc(100% / 3 - 2rem);
@@ -75,19 +74,26 @@ Main
 }
 
 img{
-    width: 6.25rem;
+    height: 6.25rem;
     max-width: 100%;
     float: left;
-}
-.info{
-    height: 6.25rem;
+    margin-right: 1rem;
 
 }
-
+.info {
+   padding: 0.7rem;
+   height: 100%;
+}
+.info *{
+    margin: 0.1rem;
+}
+h3{
+    font-size: 1.25rem;
+}
 span{
+    font-size: 0.75rem;
     display: block;
 }
-
 
 .e_mail{
     color: var(--clr-email);
